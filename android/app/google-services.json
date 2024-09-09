@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "656501310490",
+    "project_id": "examflutter-a3f33",
+    "storage_bucket": "examflutter-a3f33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656501310490:android:c8304492213fa88a65bda3",
+        "android_client_info": {
+          "package_name": "com.example.order_management_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC7EBIH057DYwF5JFTT01Jvo6bY1xO7ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
