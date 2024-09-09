@@ -71,7 +71,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.order_management_app"
+    namespace = "com.example.examflutter"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -107,3 +107,5 @@ dependencies {
 flutter {
     source "../.."
 }
+
+apply plugin: 'com.google.gms.google-services'
