@@ -18,14 +18,16 @@ tasks.register("clean", Delete) {
 }
 
 buildscript {
-    ext.kotlin_version = '1.9.0' // Hoặc phiên bản mới nhất
+    ext {
+        googlePlayServicesVersion = "21.0.1"
+        firebaseBomVersion = "32.3.1"
+    }
     repositories {
         google()
         mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:8.0.2'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        // Các dependencies khác
+        classpath 'com.google.gms:google-services:4.3.15'
     }
 }
